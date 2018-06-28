@@ -13,9 +13,15 @@ body {
 #square {
   width: 50px;
   height: 50px;
-  background-color: #ffcccc;
+  background-color: #ffcccc; }
+
+#main {
+  background-color: #fc2;
+  width: 60px;
+  height: 60px;
   position: absolute;
   left: 50%;
-  top: 50%; }
+  top: 50%;
+  display: flex; }
 
 /*# sourceMappingURL=mycss.css.map */

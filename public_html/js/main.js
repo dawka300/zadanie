@@ -10,9 +10,17 @@ square.addEventListener("mousemove", (e)=>{
    //let position= square.getBoundingClientRect();
    //square.style.right = e.clientY+"px";
    //square.style.left = e.clientX+"px";
-   square.style.left = e.clientX+"px";
-   
+   square.style.left = e.clientX+5+"px";
+//   document.addEventListener('mousemove', (e)=>{
+//   square.style.left = e.clientX+"px";
+//   });
  //  console.log(e.pageX);
   // console.log(position.x);
    
 });
+ /**
+  * Comment
+  */
+function rotate(element) {
+   element.style
+}

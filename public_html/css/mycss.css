@@ -8,20 +8,24 @@ and open the template in the editor.
     Author     : Dawid
 */
 body {
-  background-color: #333; }
+  background-color: #333;
+  position: relative; }
 
 #square {
   width: 50px;
   height: 50px;
-  background-color: #ffcccc; }
+  background-color: #ffcccc;
+  margin: auto auto; }
 
 #main {
-  background-color: #fc2;
+  background-color: #333;
   width: 60px;
   height: 60px;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  display: flex; }
+  top: 25rem;
+  left: 50%; }
+  #main:hover {
+    transform: rotate(3600deg) scale(1.5, 1.5);
+    transition: all 5s ease-in; }
 
 /*# sourceMappingURL=mycss.css.map */

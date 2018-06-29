@@ -15,17 +15,19 @@ body {
   width: 50px;
   height: 50px;
   background-color: #ffcccc;
-  margin: auto auto; }
+  margin: 0.6rem auto; }
 
 #main {
-  background-color: #333;
-  width: 60px;
-  height: 60px;
+  background-color: #313;
+  width: 70px;
+  height: 70px;
   position: absolute;
   top: 25rem;
-  left: 50%; }
-  #main:hover {
-    transform: rotate(3600deg) scale(1.5, 1.5);
-    transition: all 5s ease-in; }
+  left: 50%;
+  /*   &:hover{
+        transform:rotate(3600deg) scale(1.5,1.5);
+        transition: all 5s ease-in;
+        
+     }*/ }
 
 /*# sourceMappingURL=mycss.css.map */

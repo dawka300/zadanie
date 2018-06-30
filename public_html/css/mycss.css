@@ -8,22 +8,22 @@ and open the template in the editor.
     Author     : Dawid
 */
 body {
-  background-color: #333;
-  position: relative; }
+  background-color: #333; }
 
 #square {
   width: 50px;
   height: 50px;
   background-color: #ffcccc;
-  margin: 0.6rem auto; }
+  margin: 1.1rem auto; }
 
 #main {
-  background-color: #313;
-  width: 70px;
-  height: 70px;
+  background-color: #333;
+  width: 85px;
+  height: 85px;
   position: absolute;
-  top: 25rem;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   /*   &:hover{
         transform:rotate(3600deg) scale(1.5,1.5);
         transition: all 5s ease-in;
